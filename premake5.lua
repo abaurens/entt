@@ -20,7 +20,7 @@ project "entt"
   }
 
   -- enables natvis extensions for visual studio
-  filter "toolset:msc"
+  filter "system:windows"
     files {
       "natvis/**.natvis"
     }
